@@ -6,6 +6,7 @@ import Map, { GeolocateControl, Marker, NavigationControl } from 'react-map-gl';
 import axios from 'axios';
 import Geocoder from "@mapbox/mapbox-gl-geocoder";
 import Location from '../components/location';
+import mapboxgl from "mapbox-gl";
 
 export default function Home({ locations }) {
 
@@ -91,8 +92,8 @@ export default function Home({ locations }) {
                   mapboxAccessToken={token}
                   position="top-left"
                   placeholder="Search for places"
-                  mapboxgl={mapboxgl} // <--  A function that take as a input locations and performs local geocoding to supplement results from the Mapbox Geocoding API (This part is Enabled as you requested, if you want to use it set localGeocoderOnly to false ).
-                  localGeocoder={localGeocoder}
+                  mapboxgl={mapboxgl} 
+                  localGeocoder={localGeocoder} // <--  A function that take as a input locations and performs local geocoding to supplement results from the Mapbox Geocoding API (This part is Enabled as you requested, if you want to use it set localGeocoderOnly to false ).
                   localGeocoderOnly={true} // <--  indicates that the localGeocoder results should be the only ones returned to the user />
                 />
                 {
