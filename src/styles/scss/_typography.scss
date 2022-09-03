@@ -1,0 +1,15 @@
+@use "../custom" as *;
+
+h2 {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--h2-line-height);
+  margin-bottom: rem(5px);
+}
+
+p {
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--p-line-height);
+  margin-bottom: var(--ggw);
+}

@@ -1,0 +1,31 @@
+{
+  "name": "photo-scalp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "sass": "sass --watch src/main.scss:src/main.css"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-geocoder": "^2.3.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "deck.gl": "^8.8.9",
+    "mapbox-gl": "^2.10.0",
+    "nanoid": "^4.0.0",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-map-gl": "^7.0.19",
+    "react-map-gl-geocoder": "^2.2.0",
+    "sass-rem": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
+    "sass": "^1.54.5"
+  }
+}

@@ -1,0 +1,26 @@
+@use "../custom" as *;
+
+// vars
+:root {
+  --ggw: .5em;
+
+  --h2-font-size: 1em;
+  --h2-line-height: 1.1em;
+
+  --p-font-size: .9em;
+  --p-line-height: 1.2em;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+};
+
+$orange: #ff910d;
+$light: #fbfbfb;
+$font-color: #282828;
+
+$font-family-sans-serif: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+$font-family-serif: Georgia, Times, serif;
+$font-family-icons: 'Material Design Icons';
